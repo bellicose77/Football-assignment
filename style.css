@@ -57,7 +57,7 @@ body{
 .container
 {
     width: 1340px;
-    height: 3750px;
+    height: 2200px;
     background: #FFFFFF;
 }
 .players{
@@ -103,6 +103,47 @@ body{
     padding-left: 13px;
     
 }
+  /* Middel-contain  */
+  .middel-container{
+         display: grid;
+         grid-template-columns: repeat(2,600px);
+         grid-column-gap: 30px;
+         grid-row-gap: 158px;
+         margin-left: 160px;
+         margin-right: 156px;
+         justify-content: center;
+         margin-bottom: 158px;
+
+  }
+  .middel-text{
+      width: 469px;
+      height: 309px;
+  }
+  .middel-detail h3{
+      width: 469px;
+      height: 120px;
+      font-size: 48px;
+      line-height: 60px;
+      color: #0A0826;
+      margin-bottom: 8px;
+  }
+  .middel-detail p{
+      width:469px;
+      
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #6C6C6C ;
+      margin-bottom: 8px;
+  }
+  .middel-banner{
+      
+  }
+  .middel-banner img{
+      width: 567px;
+      height: 427px;
+  }
+
 /* footer section style  */
 .footer-section{
    margin-top: 0; 
