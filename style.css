@@ -25,17 +25,23 @@ body{
     line-height: 80px;
     color:#FFFFFF;
 }
-.link-a{
-    margin-top: 27px;
-}
 .link{
-    color:#FFFFFF ;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500px;
-    background-color: #E02C6D;
-
-    padding: 10px 24px;
+   width: 168px;
+   height: 44px;
+   padding: 10px 4px 10px 24px;
+   margin-top: 27px;
+   font-size: 30px;
+   font-weight: 500;
+   text-decoration: none;
+   background-color:#e02c6d ;
+   border-radius: 5px;
+   color: white;
+}
+.fa-arrow-right{
+    width: 16px;
+    height: 14px;
+    padding: 15px 28px 15px 4px;
+    color: white;
 }
 .span{
     margin: 0 10px;
@@ -51,6 +57,12 @@ body{
 .header-banner img{
     width: 556px;
     height: 438px;
+    transition: width 5s, height 5s ,transform 5s ease 2s;
+}
+.header-banner img:hover{
+    width: 300px;
+    height: 200px;
+    transform: rotate(360deg);
 }
 
 /* Main content section style  */
@@ -136,9 +148,7 @@ body{
       color: #6C6C6C ;
       margin-bottom: 8px;
   }
-  .middel-banner{
-      
-  }
+  
   .middel-banner img{
       width: 567px;
       height: 427px;
